@@ -23,6 +23,6 @@ public class WalletRepository {
     private void init(){
        wallet.add(new Wallet(0.0, "fatemeh"));
         wallet.add(new Wallet(0.0, "siavash"));
-        wallet.add(new Wallet(0.0, "maral"));
+        wallet.add(new Wallet(0.0, "saied"));
     }
 }

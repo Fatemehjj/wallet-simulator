@@ -4,6 +4,7 @@ import java.util.List;
 
 public class Cart{
     List<String> book;
+    String username;
 
     public Cart(List<String> book, String username) {
         this.book = book;
@@ -26,5 +27,5 @@ public class Cart{
         this.username = username;
     }
 
-    String username;
+
 }
