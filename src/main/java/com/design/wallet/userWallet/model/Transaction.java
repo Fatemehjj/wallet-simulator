@@ -4,10 +4,10 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 public class Transaction{
     private static final AtomicInteger count = new AtomicInteger(0);
-    Integer transactionID;
-    double amount;
-    TransactionType type;
-    Integer walletID;
+   private Integer transactionID;
+  private double amount;
+    private TransactionType type;
+    private Integer walletID;
 
     public Transaction(double amount, TransactionType type, Integer walletID) {
         this.transactionID = count.incrementAndGet();

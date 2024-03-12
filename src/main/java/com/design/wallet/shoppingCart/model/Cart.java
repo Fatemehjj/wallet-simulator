@@ -3,8 +3,8 @@ package com.design.wallet.shoppingCart.model;
 import java.util.List;
 
 public class Cart{
-    List<String> book;
-    String username;
+   private List<String> book;
+    private String username;
 
     public Cart(List<String> book, String username) {
         this.book = book;

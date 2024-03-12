@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.List;
 
 public class Book {
-    HashMap<String, Double> books;
+   private HashMap<String, Double> books;
 
     public Book(HashMap<String, Double> books) {
         this.books = books;

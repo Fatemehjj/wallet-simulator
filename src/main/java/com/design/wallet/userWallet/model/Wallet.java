@@ -3,9 +3,9 @@ package com.design.wallet.userWallet.model;
 import java.util.concurrent.atomic.AtomicInteger;
 
 public class Wallet{
-    Integer id;
-    double balance;
-    String username;
+   private Integer id;
+    private double balance;
+    private String username;
     private static final AtomicInteger count = new AtomicInteger(0);
 
     public Wallet(double balance, String username) {
