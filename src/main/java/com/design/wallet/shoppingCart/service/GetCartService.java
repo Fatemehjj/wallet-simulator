@@ -10,6 +10,9 @@ public class GetCartService {
     @Autowired
     CartRepository repository;
     public Cart findCart(String username) {
-        return repository.findCart(username);
+        Cart findCart = repository.findCart(username);
+        if (findCart!= null)
+            return findCart;
+        else throw new RuntimeException("cannot find cart " + username);
     }
 }

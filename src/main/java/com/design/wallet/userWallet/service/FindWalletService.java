@@ -10,7 +10,9 @@ public class FindWalletService {
     @Autowired
     WalletRepository repository;
     public Wallet findWallet(String username) {
-
-        return repository.findWallet(username);
+        Wallet findWallet = repository.findWallet(username);
+         if (findWallet != null)
+           return findWallet;
+         else throw new RuntimeException("cannot find wallet");
     }
 }
