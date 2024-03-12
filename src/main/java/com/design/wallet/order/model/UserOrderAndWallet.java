@@ -4,9 +4,9 @@ import com.design.wallet.shoppingCart.model.Cart;
 import com.design.wallet.userWallet.model.Wallet;
 
 public class UserOrderAndWallet {
-    Wallet wallet;
-    Cart cart;
-    String message;
+    private Wallet wallet;
+    private Cart cart;
+    private String message;
 
     public UserOrderAndWallet(Wallet wallet, Cart cart, String message) {
         this.wallet = wallet;
