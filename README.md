@@ -1,2 +1,2 @@
 # book shopping
-this brach contains orders and shopping carts beside user wallet 
+this branch contains orders and shopping carts apart from user wallet.
